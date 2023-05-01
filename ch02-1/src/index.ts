@@ -18,4 +18,13 @@ function printMe(me:{name:string,age:number,etc?:boolean}){
             `${me.name} ${me.age}`
     )
 }
-printMe(ai);
+// let add = new Function('a','b','return a+b')
+// function add(a:number,b:number):number{
+//     return a + b;
+// }
+// let add = (a:number,b:number):number => {
+//     return a + b;
+// }
+// console.log(add(1,2))
+const isGreater = (a:number,b:number):boolean => a>b;
+console.log(isGreater(4,2))
