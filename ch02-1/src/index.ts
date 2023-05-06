@@ -50,9 +50,9 @@ import {arrayLength,isEmpty} from "./etc/arrayLength";
 // let beforeSort = [6,2,9,0]
 // const afterSort = pureSort(beforeSort);
 // console.log(beforeSort,afterSort)
-import {pureDelete} from "./etc/pureDelete";
-const mixedArray:object[]=[
-    [],{name:'Jack'},{name:'Jane',age:32},['description']
-]
-const objectOnly:object[] = pureDelete(mixedArray,(val)=>Array.isArray(val))
-console.log(mixedArray,'===',objectOnly)
+// import {pureDelete} from "./etc/pureDelete";
+// const mixedArray:object[]=[
+//     [],{name:'Jack'},{name:'Jane',age:32},['description']
+// ]
+// const objectOnly:object[] = pureDelete(mixedArray,(val)=>Array.isArray(val))
+// console.log(mixedArray,'===',objectOnly)
